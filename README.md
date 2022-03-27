@@ -24,11 +24,11 @@
 - used for loop to create card.
 
 - and i try to use v-if but i didn't get sucessfull result.
-  [v-if](/src/assets/images/if.png)
+  ![v-if](/src/assets/images/if.png)
 
 ## Attribution
 
-- ![pexels](https://www.pexels.com/)
+- [pexels](https://www.pexels.com/)
 
 ## Project setup
 
