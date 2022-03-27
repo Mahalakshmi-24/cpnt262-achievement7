@@ -9,7 +9,8 @@
          <the-card-image :url="card.image" />
         <the-card-offer>{{card.offer}}</the-card-offer>
         <the-card-text>{{card.text}}</the-card-text>
-        <the-card-price> {{card.price}}</the-card-price>
+        <the-card-price>
+          <div > {{card.price}}</div></the-card-price>
         <the-button> ADD TO CART</the-button>
       </the-base-card>
     </div>
@@ -60,7 +61,7 @@ const cards = [
     image: require('./assets/images/bodycare.jpg'),
     offer: "BUY 3 GET 10% OFFER",
     text :"Text relates to the content" ,
-    price: "Starts From $15",
+    price: "",
    
     
   },
